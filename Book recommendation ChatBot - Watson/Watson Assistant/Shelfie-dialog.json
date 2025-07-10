@@ -1,0 +1,3595 @@
+{
+  "intents": [
+    {
+      "intent": "ask_austen",
+      "examples": [
+        {
+          "text": "Classic literature by Jane Austen"
+        },
+        {
+          "text": "Jane Austen books please"
+        },
+        {
+          "text": "List of Jane Austen books"
+        },
+        {
+          "text": "Recommend something like Pride and Prejudice"
+        },
+        {
+          "text": "What novels did Austen write?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ask_brown",
+      "examples": [
+        {
+          "text": "Any Langdon series books?"
+        },
+        {
+          "text": "Books by Dan Brown please"
+        },
+        {
+          "text": "Dan Brown books"
+        },
+        {
+          "text": "I like Dan Brown’s writing"
+        },
+        {
+          "text": "Mystery thrillers like Da Vinci Code"
+        },
+        {
+          "text": "okay can you get something by agatha"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ask_christie",
+      "examples": [
+        {
+          "text": "Agatha Christie book list"
+        },
+        {
+          "text": "can you recommend something by agatha"
+        },
+        {
+          "text": "Do you have books by Agatha Christie"
+        },
+        {
+          "text": "I want mystery books by Agatha Christie"
+        },
+        {
+          "text": "okay can you get something by agatha"
+        },
+        {
+          "text": "Recommend me a Christie novel"
+        },
+        {
+          "text": "Tell me about Agatha Christie"
+        },
+        {
+          "text": "yes, something by agatha"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ask_coelho",
+      "examples": []
+    },
+    {
+      "intent": "ask_gaiman",
+      "examples": [
+        {
+          "text": "Fantasy novels by Neil Gaiman"
+        },
+        {
+          "text": "I want something by Gaiman"
+        },
+        {
+          "text": "Neil Gaiman book recommendations"
+        },
+        {
+          "text": "Show me Gaiman’s books"
+        },
+        {
+          "text": "What did Neil Gaiman write?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ask_hoover",
+      "examples": [
+        {
+          "text": "Any books like It Ends With Us?"
+        },
+        {
+          "text": "Colleen Hoover book suggestions"
+        },
+        {
+          "text": "Hoover’s best books"
+        },
+        {
+          "text": "Romantic novels by Colleen Hoover"
+        },
+        {
+          "text": "Tell me about Colleen Hoover’s work"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ask_king",
+      "examples": [
+        {
+          "text": "Do you have Stephen King books?"
+        },
+        {
+          "text": "King’s best novels?"
+        },
+        {
+          "text": "List of books by Stephen King"
+        },
+        {
+          "text": "Stephen King horror books"
+        },
+        {
+          "text": "Suggest me a King novel"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ask_murakami",
+      "examples": [
+        {
+          "text": "Do you have Kafka on the Shore?"
+        },
+        {
+          "text": "I love Haruki Murakami"
+        },
+        {
+          "text": "Japanese fiction by Murakami"
+        },
+        {
+          "text": "Recommend a Murakami novel"
+        },
+        {
+          "text": "Show me Murakami books"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ask_orwell",
+      "examples": [
+        {
+          "text": "Books by George Orwell"
+        },
+        {
+          "text": "I’m interested in Orwell’s work"
+        },
+        {
+          "text": "Orwell book suggestions"
+        },
+        {
+          "text": "Recommend something like 1984"
+        },
+        {
+          "text": "What did Orwell write?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ask_rowling",
+      "examples": [
+        {
+          "text": "Any Harry Potter books?"
+        },
+        {
+          "text": "I love J.K. Rowling’s books"
+        },
+        {
+          "text": "Rowling novels please"
+        },
+        {
+          "text": "some other books by uk"
+        },
+        {
+          "text": "Suggest a book by J.K. Rowling"
+        },
+        {
+          "text": "What did Rowling write?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "book_summary",
+      "examples": [
+        {
+          "text": "can you give me summary of this specific book"
+        },
+        {
+          "text": "can you quickly give me the gist of the book"
+        },
+        {
+          "text": "can you summarise this for me"
+        },
+        {
+          "text": "tell me an thing that will interest me in this book"
+        },
+        {
+          "text": "what is this book about"
+        },
+        {
+          "text": "what's the plot"
+        }
+      ],
+      "description": "User requests the summary of a specific book."
+    },
+    {
+      "intent": "Classics",
+      "examples": [
+        {
+          "text": "i am waiting"
+        },
+        {
+          "text": "ok"
+        },
+        {
+          "text": "okay"
+        },
+        {
+          "text": "yes"
+        },
+        {
+          "text": "yes, go ahead"
+        },
+        {
+          "text": "yes,please"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "goodbye",
+      "examples": [
+        {
+          "text": "Bye"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Talk later"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "Thanks, I'm don"
+        }
+      ],
+      "description": "User ends the conversation"
+    },
+    {
+      "intent": "greetings",
+      "examples": [
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "Hi shelfie"
+        },
+        {
+          "text": "Namaste"
+        }
+      ],
+      "description": "User greets the chatbot "
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "can i ask for book by a author"
+        },
+        {
+          "text": "can you explain how this works"
+        },
+        {
+          "text": "can you guide me"
+        },
+        {
+          "text": "help me out here"
+        },
+        {
+          "text": "how does this work"
+        },
+        {
+          "text": "how do i use shelfie"
+        },
+        {
+          "text": "i am new here what do you so?"
+        },
+        {
+          "text": "i need help"
+        },
+        {
+          "text": "not sure where to start"
+        },
+        {
+          "text": "show me the oprions"
+        },
+        {
+          "text": "tell me how to get a book"
+        },
+        {
+          "text": "what can shelfie do for me"
+        },
+        {
+          "text": "What can you do?"
+        }
+      ],
+      "description": "Helps the user and explain how its works"
+    },
+    {
+      "intent": "recommend_book",
+      "examples": [
+        {
+          "text": "can you recommend me a book"
+        },
+        {
+          "text": "can you recommend something by agatha"
+        },
+        {
+          "text": "can you suggest me a book"
+        },
+        {
+          "text": "Help me pick a book"
+        },
+        {
+          "text": "Recommend me something"
+        },
+        {
+          "text": "show me some books"
+        },
+        {
+          "text": "Suggest a novel"
+        },
+        {
+          "text": "what book should I be reading next"
+        },
+        {
+          "text": "what genre should I explore more"
+        },
+        {
+          "text": "what kind of book should I read"
+        },
+        {
+          "text": "what should be the next pick of my tbr"
+        },
+        {
+          "text": "What should I read next?"
+        }
+      ],
+      "description": "User wants a book suggestion or says something like \"What should I read?\""
+    },
+    {
+      "intent": "select_genre",
+      "examples": [
+        {
+          "text": "enjoy thrillers"
+        },
+        {
+          "text": "Give me a comedy book"
+        },
+        {
+          "text": "Horror books, please"
+        },
+        {
+          "text": "I like mystery books"
+        },
+        {
+          "text": "I'm into adventure stories"
+        },
+        {
+          "text": "I prefer drama"
+        },
+        {
+          "text": "I want to read science fiction"
+        },
+        {
+          "text": "Recommend a historical fiction"
+        },
+        {
+          "text": "Romance is my favorite"
+        },
+        {
+          "text": "Show me some fantasy novels"
+        },
+        {
+          "text": "something of mystery"
+        }
+      ],
+      "description": "User specifies their preferred genre."
+    },
+    {
+      "intent": "thank_you",
+      "examples": [
+        {
+          "text": "Awesome"
+        },
+        {
+          "text": "oh, thanks"
+        },
+        {
+          "text": "Thanks"
+        },
+        {
+          "text": "thanks a lot"
+        },
+        {
+          "text": "That helps"
+        },
+        {
+          "text": "This was great"
+        },
+        {
+          "text": "This works"
+        }
+      ],
+      "description": "User expresses gratitude or appreciation."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "agatha_christie",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "And Then There Were None",
+          "synonyms": [
+            "And Then There Were None",
+            "Ten Little Indians)"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Death on the Nile",
+          "synonyms": [
+            "Death on the Nile,",
+            "Nile mystery"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Murder on the Orient Express",
+          "synonyms": [
+            "Murder on the Orient Express",
+            "Orient Express"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "The ABC Murders",
+          "synonyms": [
+            "Alphabet Murders",
+            "The ABC Murders"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "The Murder of Roger Ackroyd",
+          "synonyms": [
+            "Roger Ackroyd",
+            "The Murder of Roger Ackroyd"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "author",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Agatha_Christie",
+          "synonyms": [
+            " a. christie",
+            "agatha christie",
+            "christie"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Colleen_Hoover",
+          "synonyms": [
+            "c. hoover",
+            "coho",
+            "colleen hoove",
+            "hoover"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Dan_Brown",
+          "synonyms": [
+            "brown",
+            "dan brown",
+            "d. brown"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "George_Orwell",
+          "synonyms": [
+            "george orwell",
+            "orwell"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Haruki_Murakami",
+          "synonyms": [
+            "haruki murakami",
+            " murakami"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jane_Austen",
+          "synonyms": [
+            "austen",
+            "jane austen"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "J.K._Rowling",
+          "synonyms": [
+            "j k rowling",
+            "j. k. rowling",
+            "jk rowling",
+            "rowling,"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Neil_Gaiman",
+          "synonyms": [
+            "gaiman",
+            "neil gaiman"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "pa",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Paoulo_coelho",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Stephen_King",
+          "synonyms": [
+            "king",
+            "s. king",
+            "stephen king,"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "books",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Colleen_hoover",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "It Ends with Us",
+          "synonyms": [
+            "It Ends With Us",
+            "Lily and Atlas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "November 9",
+          "synonyms": [
+            "november 9",
+            "November Nine"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Reminders of Him",
+          "synonyms": [
+            "Reminders of Him"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ugly Love",
+          "synonyms": [
+            "Ugly Love"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Verity",
+          "synonyms": [
+            "dark book by colleen ",
+            "verity"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Dan_brown",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Angels & Demons",
+          "synonyms": [
+            "Angels and Demons",
+            "Robert Langdon 2"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Inferno",
+          "synonyms": [
+            "inferno ",
+            "inferno by dan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Origin",
+          "synonyms": [
+            "origin",
+            "origin by dan"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "The Da Vinci Code",
+          "synonyms": [
+            "Da Vinci Code",
+            "Robert Langdon 1",
+            "vinci code"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "The Lost Symbol",
+          "synonyms": [
+            "lost symbol",
+            "the lost symbol "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "genre",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "adventure",
+          "synonyms": [
+            "action",
+            "jackpot",
+            "journey",
+            "quest",
+            "survival",
+            "thrilling ride",
+            "treasure hunt"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "children",
+          "synonyms": [
+            "bedtime story",
+            "child book",
+            "children book",
+            "kids",
+            "picture book"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "classic",
+          "synonyms": [
+            "literary classic",
+            "old literature",
+            "timeless books"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "comedy",
+          "synonyms": [
+            "dark comedy",
+            "funny",
+            "humor",
+            "humorous",
+            "jokes",
+            "light read",
+            "satire"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dramas",
+          "synonyms": [
+            "emotional",
+            "intense",
+            "realistic fiction",
+            "serious"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "fantasy",
+          "synonyms": [
+            "dragons",
+            "epic fantasy",
+            "fairy",
+            "imaginary",
+            "magic",
+            "magical",
+            "wizard"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "graphic_novel",
+          "synonyms": [
+            "comics",
+            "illustrated",
+            "mangas"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "historical_fiction",
+          "synonyms": [
+            "1800s",
+            "1900s",
+            "historical drama",
+            "king and queen",
+            "past",
+            "period drama",
+            "war"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "horror",
+          "synonyms": [
+            "ghost",
+            "ghost hunters",
+            "possession",
+            "scary",
+            "spooky",
+            "spooly doll",
+            "supenautral"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "literary_fiction",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mystery",
+          "synonyms": [
+            "crime",
+            "detective",
+            "suspense",
+            "whodunit"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "non_fiction",
+          "synonyms": [
+            "biography",
+            "facts",
+            "reality",
+            "real stories",
+            "self help",
+            "true story"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "romance",
+          "synonyms": [
+            "love story",
+            "romantic",
+            "romantic fiction",
+            "rom-com"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "science_fiction",
+          "synonyms": [
+            "alien",
+            "dystopian",
+            "futuristic",
+            "sci-fi",
+            "space"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "self help",
+          "synonyms": [
+            "improvement",
+            "life balance",
+            "mindset",
+            "motivation",
+            "productivity"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "thriller",
+          "synonyms": [
+            "action-packed",
+            "drama",
+            "edge of seat",
+            "suspense thriller"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "young adult",
+          "synonyms": [
+            "coming of age",
+            "high school drama",
+            "high school romance",
+            "teen fiction"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "george_orwell",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1984",
+          "synonyms": [
+            "Big Brother",
+            "Nineteen Eighty-Four"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Animal Farm",
+          "synonyms": [
+            "Animal Farm",
+            "Orwell satire"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Down and Out in Paris and London",
+          "synonyms": [
+            "Down and Out",
+            "out in paris and london"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Homage to Catalonia",
+          "synonyms": [
+            "Homage to Catalonia"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "The Road to Wigan Pier",
+          "synonyms": [
+            "Wigan Pier"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Haruki_murakami",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1Q84",
+          "synonyms": [
+            "1Q84",
+            "One Q Eighty-Four"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Colorless Tsukuru Tazaki and His Years of Pilgrimage",
+          "synonyms": [
+            "Colorless Tsukuru",
+            "Colorless Tsukuru Tazaki and His Years of Pilgrimage"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Kafka on the Shore",
+          "synonyms": [
+            "Kafka on the Shore"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Norwegian Wood",
+          "synonyms": [
+            "Coming-of-age Murakami",
+            "Noruwei no Mori"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "The Wind-Up Bird Chronicle",
+          "synonyms": [
+            "Wind-Up Bird",
+            "wind up bird by murakami"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Jane_austen",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Emma",
+          "synonyms": [
+            "Emma"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Northanger Abbey",
+          "synonyms": [
+            "Northanger Abbey"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Persuasion",
+          "synonyms": [
+            "Persuasion"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pride and Prejudice",
+          "synonyms": [
+            "Elizabeth and Darcy",
+            "P&P"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Sense and Sensibility",
+          "synonyms": [
+            "Sense and Sensibility"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "jk_rowling",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Harry Potter and the Chamber of Secrets",
+          "synonyms": [
+            "Book 2",
+            "HP2"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Harry Potter and the Goblet of Fire",
+          "synonyms": [
+            "Book 4",
+            "goblet of fire",
+            "harry potter 4",
+            "harry potter book 4",
+            "HP4"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Harry Potter and the Order of the Phoenix",
+          "synonyms": [
+            "Book 5",
+            "harry potter 5",
+            "harry potter book 5",
+            "HP5",
+            "order of phoenix book "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Harry Potter and the Prisoner of Azkaban",
+          "synonyms": [
+            "Book 3",
+            "HP3"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Harry Potter and the Sorcerer's Stone",
+          "synonyms": [
+            "Book 1",
+            "HP1",
+            "Philosopher’s Stone"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Neil_gaiman",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "American Gods",
+          "synonyms": [
+            "American Gods",
+            "Gaiman epic"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Coraline",
+          "synonyms": [
+            "Coraline",
+            "Coraline Jones"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Good Omens",
+          "synonyms": [
+            "Crowley and Aziraphale",
+            "Good Omens"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Neverwhere",
+          "synonyms": [
+            "Neverwhere"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "The Graveyard Book",
+          "synonyms": [
+            "Graveyard Book"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "stephen_king",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Carrie",
+          "synonyms": [
+            "Carrie"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "It",
+          "synonyms": [
+            "book of pennywise",
+            "It",
+            "Pennywise"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Misery",
+          "synonyms": [
+            "Misery"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "The Shining",
+          "synonyms": [
+            "Overlook Hotel",
+            "The Shining"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "The Stand",
+          "synonyms": [
+            "The Stand"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Recommend by author ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'd be happy to recommend something. Do you have a favorite author or genre?"
+              },
+              {
+                "text": "Let me know what kind of stories you enjoy — thrilling, emotional, magical?"
+              },
+              {
+                "text": "Of course! Are you looking for a classic, a bestseller, or something new?"
+              },
+              {
+                "text": "Sure! Are you in the mood for mystery, romance, fantasy, or something else?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#recommend_book",
+      "digress_in": "does_not_return",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_5_1751978385628",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "recommendation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you have a favorite genre or author in mind?"
+              },
+              {
+                "text": "I can recommend books based on genre, mood, or author — what are you in the mood for?"
+              },
+              {
+                "text": "Tell me your favorite genre or the last author you enjoyed — I’ll do the rest!"
+              },
+              {
+                "text": "Let’s narrow it down — any genre or author you love?"
+              },
+              {
+                "text": "What kind of story are you craving? Or is there an author you can’t get enough of?"
+              },
+              {
+                "text": "Genre or author — what should we explore today?"
+              },
+              {
+                "text": "Who’s an author you admire? Or shall I suggest by genre?"
+              },
+              {
+                "text": "Need help picking a genre? I’ve got mystery, romance, fantasy, and more."
+              },
+              {
+                "text": "Genre guide? Author whisperer? I can be both. What’s your vibe?"
+              },
+              {
+                "text": "Hit me with a genre or author — I’ll fetch the perfect read!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#recommend_book",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1751950771153",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey, I’m Shelfie 📖 — your AI-powered book buddy! Let’s find your next favorite read. ✨"
+              },
+              {
+                "text": "Welcome to Shelfie! 📚 The shelves are stacked, and the stories are waiting"
+              },
+              {
+                "text": "Hi there, reader! I’m Shelfie — part chatbot, part bookshelf. Ready for a great recommendation?"
+              },
+              {
+                "text": "Welcome to Shelfie – your AI reading companion. Tell me your vibe, and I’ll tell you what to read. 🎯"
+              },
+              {
+                "text": "Hey bookworm! 🐛 I’m Shelfie. Your digital bookshelf with personality. Ready to read something magical?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_10_1751952188319"
+    },
+    {
+      "type": "standard",
+      "title": "book names",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@genre || #select_genre",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1751969609590",
+      "previous_sibling": "node_5_1751867387452"
+    },
+    {
+      "type": "standard",
+      "title": "Books by Neil Gaiman",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "American Gods\n\n"
+              },
+              {
+                "text": "Coraline"
+              },
+              {
+                "text": "The Graveyard Book"
+              },
+              {
+                "text": "Neverwhere"
+              },
+              {
+                "text": "Good Omens"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1752033799224",
+      "conditions": "@author:Neil_Gaiman && #ask_gaiman",
+      "dialog_node": "node_10_1752034010671"
+    },
+    {
+      "type": "standard",
+      "title": "Stephen King",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Stephen King knows how to mess with your mind — horror, suspense, or psychological thrillers. Want chills or a time-travel story?"
+              },
+              {
+                "text": "Looking for something creepy or complex? King’s The Shining and 11/22/63 offer both."
+              },
+              {
+                "text": "Brace yourself — King’s books don’t hold back. How scary are you willing to go?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_9_1752034166716"
+      },
+      "conditions": "@author:Stephen_King",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1752034092618",
+      "previous_sibling": "node_9_1752084261758"
+    },
+    {
+      "type": "standard",
+      "title": "Summaries of books by stephen king",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#book_summary && @stephen_king",
+      "dialog_node": "node_10_1752083709357",
+      "previous_sibling": "node_10_1752034092618"
+    },
+    {
+      "type": "standard",
+      "title": "thanking you or feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You're welcome! 😊 Happy to help!"
+              },
+              {
+                "text": "Anytime! Let me know if you need more recommendations."
+              },
+              {
+                "text": "Glad I could help. Enjoy your reading!"
+              },
+              {
+                "text": "No problem at all!"
+              },
+              {
+                "text": "You're very welcome!📚"
+              },
+              {
+                "text": "Always here if you need another good book!"
+              },
+              {
+                "text": "Glad you liked the suggestion! Come back for more!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#thank_you || #goodbye",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1751951175984",
+      "previous_sibling": "node_10_1751969609590"
+    },
+    {
+      "type": "standard",
+      "title": "Goodbye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "May the spine be strong and the plot even stronger. Catch you later!"
+              },
+              {
+                "text": "Like a good book, I’ll be here waiting when you're ready to return"
+              },
+              {
+                "text": "Saved your last pick. Let me know when you want more recs. Bye for now!"
+              },
+              {
+                "text": "Come back anytime for a story tailored to your mood. See you!"
+              },
+              {
+                "text": "May your bookmarks always find the best pages. See you soon!"
+              },
+              {
+                "text": "Shelfie signing off — until your next story adventure!"
+              },
+              {
+                "text": "Goodbye for now! May your next read be unputdownable"
+              },
+              {
+                "text": "See you next time, book lover! Don’t forget to come back for your next great escape"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#goodbye",
+      "dialog_node": "node_2_1751949190674",
+      "previous_sibling": "node_1_1751951175984"
+    },
+    {
+      "type": "standard",
+      "title": "Books by George Orwell",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1984"
+              },
+              {
+                "text": "Animal Farm"
+              },
+              {
+                "text": "Homage to Catalonia"
+              },
+              {
+                "text": "Down and Out in Paris and London"
+              },
+              {
+                "text": "The Road to Wigan Pier"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1751979257416",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@george_orwell",
+      "dialog_node": "node_3_1751979337323"
+    },
+    {
+      "type": "standard",
+      "title": "Neil Gaiman",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1752034010671"
+      },
+      "conditions": "@author:Neil_Gaiman || #ask_gaiman",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1752033799224",
+      "previous_sibling": "node_10_1752083709357"
+    },
+    {
+      "type": "standard",
+      "title": "summaries of jk rowling",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#book_summary && @jk_rowling",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1751979043907",
+      "previous_sibling": "node_8_1751978835834"
+    },
+    {
+      "type": "standard",
+      "title": "Books by collen Hoover",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It Ends with Us"
+              },
+              {
+                "text": "Verity"
+              },
+              {
+                "text": "Ugly Love"
+              },
+              {
+                "text": "Reminders of Him"
+              },
+              {
+                "text": "November 9"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1752034508072",
+      "conditions": "@author:Colleen_Hoover && #ask_hoover",
+      "dialog_node": "node_4_1752034684659"
+    },
+    {
+      "type": "standard",
+      "title": "Summary of Murakami books",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#book_summary && @Haruki_murakami",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1752081714213",
+      "previous_sibling": "node_6_1752033477222"
+    },
+    {
+      "type": "standard",
+      "title": "Recommendation by genre",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ooh, you're into @genre? Great choice! Let me fetch a top pick from that shelf. 📚"
+              },
+              {
+                "text": "@genre, nice! I’ve got just the book you’ll love."
+              },
+              {
+                "text": "Ah, a fan of @genre! One sec—curating something special for you.."
+              },
+              {
+                "text": "You have great taste! Let’s see what the @genre shelf has in store for you."
+              },
+              {
+                "text": "@genre books coming right up! Just flipping through the shelves now.."
+              },
+              {
+                "text": "@genre is such a rich genre—there's always something brilliant to read!"
+              },
+              {
+                "text": "\"@genre it is! Dusting off some great reads for you now"
+              },
+              {
+                "text": "If stories were flavors, @genre would be a favorite! Let’s find your next read."
+              },
+              {
+                "text": "@genre, cool! I’ve got some good ones."
+              },
+              {
+                "text": "Got it! You like @genre? I’ve got a few recommendations you’ll vibe with."
+              },
+              {
+                "text": "@genre it is. Here’s something you might like."
+              },
+              {
+                "text": "Matching your taste with @genre reads."
+              },
+              {
+                "text": "Searching @genre recommendations..."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1751969609590"
+      },
+      "conditions": "#select_genre || @genre",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1751867387452",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "title": "Summary of the Book",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#book_summary && @agatha_christie",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1751978385628",
+      "previous_sibling": "node_8_1751978101957"
+    },
+    {
+      "type": "standard",
+      "title": "Summaries of neil gaiman's books",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#book_summary && @Neil_gaiman",
+      "dialog_node": "node_5_1752083418052",
+      "previous_sibling": "node_3_1752033799224"
+    },
+    {
+      "type": "standard",
+      "title": "nothing ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hmm... I couldn’t find that in my bookshelf. Could you check the spelling or try a different author or genre?"
+              },
+              {
+                "text": "That’s not in my current collection. Want to try a different genre, author, or let me surprise you?"
+              },
+              {
+                "text": "I haven’t read that one yet! Would you like suggestions from a similar genre or mood?"
+              },
+              {
+                "text": "I don’t have any results for that right now — but I can still recommend something amazing. What type of book are you in the mood for?"
+              },
+              {
+                "text": "Sorry, I couldn’t match that to my list. Want to browse genres or discover trending books instead?"
+              },
+              {
+                "text": "Hmm… that one’s not on my shelf yet! I’m still building my library — want to try a different genre or author?"
+              },
+              {
+                "text": "Looks like my bookshelf hasn’t reached that corner of the world yet — care to try another name or theme?"
+              },
+              {
+                "text": "That one’s not in my library yet. I'm still stacking the shelves — one good story at a time"
+              },
+              {
+                "text": "Shelfie’s still learning! I don’t know that one yet, but I’m great with genres like mystery, fantasy, and feel-good reads!"
+              },
+              {
+                "text": "Not everything has made it to my shelves yet — but I promise there’s still plenty of stories to discover!"
+              },
+              {
+                "text": "Even digital shelves have limits... for now! But I’d still love to recommend something similar"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1751951843443",
+      "previous_sibling": "node_2_1751949190674"
+    },
+    {
+      "type": "standard",
+      "title": "Books by Agatha Christie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Murder on the Orient Express"
+              },
+              {
+                "text": "And Then There Were None"
+              },
+              {
+                "text": "Death on the Nile"
+              },
+              {
+                "text": "The ABC Murders"
+              },
+              {
+                "text": "The Murder of Roger Ackroyd"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_8_1751978101957",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_5_1751978385628"
+      },
+      "conditions": "#ask_christie",
+      "dialog_node": "node_6_1751978294212"
+    },
+    {
+      "type": "standard",
+      "title": "Haruki murakami",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Murakami blends the surreal with the emotional in a way no one else can. Kafka on the Shore or Norwegian Wood — what’s your vibe?"
+              },
+              {
+                "text": "Dreamy, melancholic, and mysterious — Murakami’s books are like lucid dreams. Shall I recommend one?"
+              },
+              {
+                "text": "Looking for a journey through the subconscious? Let’s lose ourselves in Murakami"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1752033610828"
+      },
+      "conditions": "@author:Haruki_Murakami && #ask_murakami",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1752033477222",
+      "previous_sibling": "node_7_1752082597277"
+    },
+    {
+      "type": "standard",
+      "title": "Jane Austen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jane Austen serves wit, romance, and social commentary with grace. Ready for some Regency-era drama?"
+              },
+              {
+                "text": "If you love clever heroines and charming conversations, Austen’s your match. Shall we start with Pride and Prejudice?”"
+              },
+              {
+                "text": "Looking for a timeless love story with a sharp tongue? Jane Austen always delivers."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1752033874371"
+      },
+      "conditions": "@author:Jane_Austen && #ask_austen",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1752033796504",
+      "previous_sibling": "node_5_1752083418052"
+    },
+    {
+      "type": "standard",
+      "title": "Books by Jane Austen",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Pride and Prejudice"
+              },
+              {
+                "text": "Sense and Sensibility"
+              },
+              {
+                "text": "Emma\n\n"
+              },
+              {
+                "text": "Persuasion"
+              },
+              {
+                "text": "Northanger Abbey"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1752033796504",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_7_1752082597277"
+      },
+      "conditions": "@author:Jane_Austen && #ask_austen",
+      "dialog_node": "node_6_1752033874371"
+    },
+    {
+      "type": "standard",
+      "title": "Paulo Coelho",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Looking for something poetic and meaningful? Coelho’s stories are full of wisdom and wanderlust."
+              },
+              {
+                "text": "Paulo Coelho writes books that feed the soul. The Alchemist is a beautiful place to start — shall I fetch it?"
+              },
+              {
+                "text": "Whether you're seeking purpose or peace, Coelho’s got your back. Want something spiritual or philosophical?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1752034874464"
+      },
+      "conditions": "@author:Paoulo_coelho",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1752034797950",
+      "previous_sibling": "node_10_1751950771153"
+    },
+    {
+      "type": "standard",
+      "title": "Books by J.K.Rowling",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Harry Potter and the Sorcerer's Stone"
+              },
+              {
+                "text": "Harry Potter and the Chamber of Secrets"
+              },
+              {
+                "text": "Harry Potter and the Goblet of Fire"
+              },
+              {
+                "text": "Harry Potter and the Order of the Phoenix"
+              },
+              {
+                "text": "Harry Potter and the Prisoner of Azkaban"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1751978835834",
+      "conditions": "@jk_rowling",
+      "dialog_node": "node_7_1751978912538"
+    },
+    {
+      "type": "standard",
+      "title": "Books By Haruki Murakami",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Norwegian Wood"
+              },
+              {
+                "text": "Kafka on the Shore"
+              },
+              {
+                "text": "1Q84"
+              },
+              {
+                "text": "The Wind-Up Bird Chronicle"
+              },
+              {
+                "text": "Colorless Tsukuru Tazaki and His Years of Pilgrimage"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1752033477222",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "user_input",
+        "dialog_node": "node_4_1752081714213"
+      },
+      "conditions": "@author:Haruki_Murakami && #ask_murakami",
+      "dialog_node": "node_7_1752033610828"
+    },
+    {
+      "type": "standard",
+      "title": "Dan Brown",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Time to decode some secrets! Dan Brown’s fast-paced thrillers are perfect for mystery lovers. Shall I pull The Da Vinci Code off the shelf?"
+              },
+              {
+                "text": "History, puzzles, and suspense — Dan Brown never disappoints. Want a Robert Langdon adventure?"
+              },
+              {
+                "text": "In the mood for symbols, secrets, and high-stakes drama? Dan Brown’s your guy"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1752034398040"
+      },
+      "conditions": "@author:Dan_Brown && #ask_brown",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1752034261099",
+      "previous_sibling": "node_7_1752034508072"
+    },
+    {
+      "type": "standard",
+      "title": "Colleen Hoover",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ready for an emotional rollercoaster? Colleen Hoover’s stories will break and rebuild your heart — how about It Ends With Us or Verity?"
+              },
+              {
+                "text": "Colleen Hoover never misses. Would you like a story about healing, heartbreak, or both?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_4_1752034684659"
+      },
+      "conditions": "@author:Colleen_Hoover && #ask_hoover",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1752034508072",
+      "previous_sibling": "node_6_1752034797950"
+    },
+    {
+      "type": "standard",
+      "title": "Books by Paulo Coelho",
+      "parent": "node_6_1752034797950",
+      "conditions": "@author:Paoulo_coelho",
+      "dialog_node": "node_7_1752034874464"
+    },
+    {
+      "type": "standard",
+      "title": "Summary of jane austen books",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#book_summary && @Jane_austen",
+      "dialog_node": "node_7_1752082597277",
+      "previous_sibling": "node_6_1752033796504"
+    },
+    {
+      "type": "standard",
+      "title": "anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Looks like I don’t have that one. But I can help with popular genres like fantasy, thriller, romance, or mystery!"
+              },
+              {
+                "text": "That’s a rare request! While I can’t find it, I can offer books by mood, genre, or favorite authors. Want to give it another go?"
+              },
+              {
+                "text": "Shelfie’s still expanding the library! Until then, how about a mystery, a classic, or a feel-good novel?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1751951546554",
+      "previous_sibling": "node_6_1751951843443"
+    },
+    {
+      "type": "standard",
+      "title": "Agatha christie",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Fancy solving a mystery with Hercule Poirot or Miss Marple? Agatha Christie’s got a puzzle for you. Shall I suggest And Then There Were None?"
+              },
+              {
+                "text": "Classic whodunits and twist endings await! Do you want something iconic like Murder on the Orient Express or a lesser-known gem?"
+              },
+              {
+                "text": "Nobody writes crime like Christie. Shall I serve up a chilling murder mystery?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1751978294212"
+      },
+      "conditions": "@author:Agatha_Christie && #ask_christie",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1751978101957",
+      "previous_sibling": "node_4_1751979043907"
+    },
+    {
+      "type": "standard",
+      "title": "J.K Rowling",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah, the wizarding world! Are you starting the Harry Potter series, or would you like to explore her detective fiction under Robert Galbraith?"
+              },
+              {
+                "text": "J.K. Rowling’s magic isn’t just for Hogwarts. Want to dive into mystery with The Cuckoo’s Calling?"
+              },
+              {
+                "text": "Whether you’re 9 or 99, Harry Potter is always a good idea. Shall I bring the magic?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1751978912538"
+      },
+      "conditions": "@author:(J.K._Rowling) && #ask_rowling",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1751978835834",
+      "previous_sibling": "node_9_1751979434003"
+    },
+    {
+      "type": "standard",
+      "title": "George Orwell",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "George Orwell’s writing is bold, thought-provoking, and timeless. Want dystopia like 1984 or political satire like Animal Farm?"
+              },
+              {
+                "text": "Orwell’s classics hold chilling relevance today. Would you prefer totalitarian terror or allegorical animals?"
+              },
+              {
+                "text": "Into rebellion and control? Orwell’s dystopias are a must-read. Want something intense or symbolic?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_3_1751979337323"
+      },
+      "conditions": "@author:George_Orwell && #ask_orwell",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1751979257416",
+      "previous_sibling": "node_4_1752081714213"
+    },
+    {
+      "type": "standard",
+      "title": "Books by Dan Brown",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Da Vinci Code"
+              },
+              {
+                "text": "Angels & Demons"
+              },
+              {
+                "text": "The Lost Symbol"
+              },
+              {
+                "text": "Origin"
+              },
+              {
+                "text": "Angels & Demons"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_7_1752034261099",
+      "conditions": "@author:Dan_Brown && #ask_brown",
+      "dialog_node": "node_8_1752034398040"
+    },
+    {
+      "type": "standard",
+      "title": "help",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I’m Shelfie — your AI reading buddy! I can recommend books based on genre, mood, favorite authors, or even surprise you. 📚"
+              },
+              {
+                "text": "Need a book that matches your vibe? Just tell me what you’re in the mood for — fantasy, romance, something spooky, or totally random!"
+              },
+              {
+                "text": "You can say things like: ‘Suggest a mystery novel’, ‘Give me something happy’, or ‘I want a book by Dan Brown’."
+              },
+              {
+                "text": "Think of me as your magical bookshelf. Ask me for book recs by mood, genre, or even your favorite author. Need a classic? I got you!"
+              },
+              {
+                "text": "Lost in the library? Just say: ‘Give me something thrilling’, ‘I want to cry-read’, or ‘Surprise me with a random book’"
+              },
+              {
+                "text": "I’m here to spark your next story. Ask for a book by genre, mood, or author — or just say ‘Surprise me!’ for a random gem."
+              },
+              {
+                "text": "Shelfie is open! Ask for books that match your mood, explore new genres, or revisit your favorite author’s works"
+              },
+              {
+                "text": "Not sure where to start? Try saying:\n‘Give me a horror book’,\n‘Suggest a classic’,\n‘Show me something random’"
+              },
+              {
+                "text": "From cozy reads to spine-tingling thrillers, I help you discover the perfect next book. Just tell me what you’re into today!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#help",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1751950625538",
+      "previous_sibling": "node_10_1751952188319"
+    },
+    {
+      "type": "standard",
+      "title": "summaries of George orwell",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#book_summary && @george_orwell",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1751979434003",
+      "previous_sibling": "node_8_1751979257416"
+    },
+    {
+      "type": "standard",
+      "title": "Books by Stephen King",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Stand"
+              },
+              {
+                "text": "Misery"
+              },
+              {
+                "text": "Carrie"
+              },
+              {
+                "text": "It"
+              },
+              {
+                "text": "The Shining"
+              },
+              {
+                "text": "The Shining\n\nIt\n\nCarrie\n\nMisery\n\nThe Stand"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1752034092618",
+      "conditions": "@author:Stephen_King && #ask_king",
+      "dialog_node": "node_9_1752034166716"
+    },
+    {
+      "type": "standard",
+      "title": "Summaries of books by dan brown",
+      "dialog_node": "node_9_1752084261758",
+      "previous_sibling": "node_7_1752034261099"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "George Orwell’s writing is bold, thought-provoking, and timeless. Want dystopia like 1984 or political satire like Animal Farm?"
+              },
+              {
+                "text": "Orwell’s classics hold chilling relevance today. Would you prefer totalitarian terror or allegorical animals?"
+              },
+              {
+                "text": "Into rebellion and control? Orwell’s dystopias are a must-read. Want something intense or symbolic?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "disabled": true,
+      "conditions": "#ask_orwell",
+      "dialog_node": "response_10_1751949910633",
+      "previous_sibling": "response_2_1751949739800"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Students are being petrified at Hogwarts, and the legend of the Chamber of Secrets is revived. Harry discovers he can speak to snakes and ultimately defeats the basilisk to save Ginny Weasley."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1751979043907",
+      "conditions": "@jk_rowling:(Harry Potter and the Chamber of Secrets)",
+      "dialog_node": "response_10_1751979122626",
+      "previous_sibling": "response_6_1751979106403"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Winston Smith lives under the oppressive regime of the Party and Big Brother, where independent thought is a crime. He begins a forbidden romance and keeps a diary, hoping for freedom. Eventually, he's caught, tortured, and brainwashed in the Ministry of Love until he truly loves Big Brother. It’s a powerful warning about surveillance, censorship, and totalitarianism."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1751979434003",
+      "conditions": "@george_orwell:1984",
+      "dialog_node": "response_10_1751979479375"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Da Vinci Code — Dan Brown"
+              },
+              {
+                "text": "Angels & Demons — Dan Brown\n\n"
+              },
+              {
+                "text": "Inferno — Dan Brown"
+              },
+              {
+                "text": "The Lost Symbol — Dan Brown"
+              },
+              {
+                "text": "Origin — Dan Brown"
+              },
+              {
+                "text": "Verity — Colleen Hoover (romantic psychological thriller)"
+              },
+              {
+                "text": "The Murder of Roger Ackroyd — Agatha Christie"
+              },
+              {
+                "text": "The ABC Murders — Agatha Christie"
+              },
+              {
+                "text": "And Then There Were None — Agatha Christie\n\n"
+              },
+              {
+                "text": "Death on the Nile — Agatha Christie"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1751969609590",
+      "conditions": "@genre:thriller",
+      "dialog_node": "response_10_1752038274727",
+      "previous_sibling": "response_4_1752037195194"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ten strangers are invited to a remote island by a mysterious host. One by one, they are killed in accordance with a nursery rhyme. As paranoia grows, they realize the murderer is among them—and no one is safe."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1751978385628",
+      "conditions": "@agatha_christie:(And Then There Were None)",
+      "dialog_node": "response_10_1752078217797",
+      "previous_sibling": "response_5_1752078199066"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In the town of Derry, Maine, a shape-shifting entity that often appears as a clown named Pennywise awakens every 27 years to feed on children’s fear. A group of childhood friends confront the monster both as kids and later as adults, facing their deepest traumas. A sprawling tale of friendship, memory, and terror."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1752083709357",
+      "conditions": "@stephen_king:It",
+      "dialog_node": "response_10_1752084179024",
+      "previous_sibling": "response_9_1752084141640"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "If you’re in the mood for love, loss, and messy emotions, CoHo’s got you. Want a contemporary romance or something darker like Verity?"
+              },
+              {
+                "text": "Colleen Hoover never misses. Would you like a story about healing, heartbreak, or both?"
+              },
+              {
+                "text": "Ready for an emotional rollercoaster? Colleen Hoover’s stories will break and rebuild your heart — how about It Ends With Us or Verity?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "disabled": true,
+      "conditions": "#ask_hoover",
+      "dialog_node": "response_1_1751949497305",
+      "previous_sibling": "response_2_1751949477298"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This book is split into two parts. The first documents Orwell’s investigation of poor working-class life in Northern England during the Great Depression. The second part is a fierce critique of British socialism and middle-class attitudes, exploring why socialism struggles to attract wider support."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1751979434003",
+      "conditions": "@george_orwell:(The Road to Wigan Pier)",
+      "dialog_node": "response_1_1751979548931",
+      "previous_sibling": "response_7_1751979533623"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This is Orwell’s personal account of his time fighting in the Spanish Civil War. He reflects on the chaos, betrayal, and idealism he witnessed, especially the internal conflict among leftist groups. It’s both a war memoir and political critique."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1751979434003",
+      "conditions": "@george_orwell:(Homage to Catalonia)",
+      "dialog_node": "response_1_1751979633622",
+      "previous_sibling": "response_1_1751979548931"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A nostalgic coming-of-age story set in 1960s Tokyo, this novel follows Toru Watanabe, a quiet college student, as he navigates love, loss, and emotional turmoil. Torn between two very different women — the emotionally fragile Naoko and the vibrant Midori — Toru grapples with the complexities of growing up and grieving."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1752081714213",
+      "conditions": "@Haruki_murakami:(Norwegian Wood)",
+      "dialog_node": "response_1_1752081872112"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Elizabeth Bennet, a witty and independent young woman, navigates love and social expectations in 19th-century England. When she meets the proud and wealthy Mr. Darcy, initial misunderstandings lead to conflict — and eventually, mutual respect and love. A timeless story of class, character, and courtship."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1752082597277",
+      "conditions": "@Jane_austen:(Pride and Prejudice)",
+      "dialog_node": "response_1_1752082654462"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sisters Elinor (practical) and Marianne (emotional) Dashwood must face love, heartbreak, and financial hardship after their father’s death leaves them nearly penniless. As they navigate the world of suitors and social pressures, the novel explores the balance between reason and feeling."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1752082597277",
+      "conditions": "@Jane_austen:(Sense and Sensibility)",
+      "dialog_node": "response_1_1752082794086",
+      "previous_sibling": "response_1_1752082654462"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jack Torrance, a struggling writer and recovering alcoholic, becomes the winter caretaker of the isolated Overlook Hotel. He moves in with his wife and young son, Danny, who has psychic abilities called \"the shining.\" As supernatural forces possess Jack, the hotel turns into a terrifying trap. A chilling story of madness, addiction, and haunting evil."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1752083709357",
+      "conditions": "@stephen_king:(The Shining)",
+      "dialog_node": "response_1_1752083822594"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "oh good , let me give you some Agatha's work"
+              },
+              {
+                "text": "oh, good choice"
+              },
+              {
+                "text": "so, you into mysteries and thrillers"
+              },
+              {
+                "text": "what a choice for thrillers , let me recommend you some from her work"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "disabled": true,
+      "conditions": "#ask_christie",
+      "dialog_node": "response_2_1751949477298"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "History, puzzles, and suspense — Dan Brown never disappoints. Want a Robert Langdon adventure?"
+              },
+              {
+                "text": "Time to decode some secrets! Dan Brown’s fast-paced thrillers are perfect for mystery lovers. Shall I pull The Da Vinci Code off the shelf?"
+              },
+              {
+                "text": "In the mood for symbols, secrets, and high-stakes drama? Dan Brown’s your guy"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "disabled": true,
+      "conditions": "#ask_brown",
+      "dialog_node": "response_2_1751949739800",
+      "previous_sibling": "response_1_1751949497305"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Dreamy, melancholic, and mysterious — Murakami’s books are like lucid dreams. Shall I recommend one?"
+              },
+              {
+                "text": "Looking for a journey through the subconscious? Let’s lose ourselves in Murakami."
+              },
+              {
+                "text": "Murakami blends the surreal with the emotional in a way no one else can. Kafka on the Shore or Norwegian Wood — what’s your vibe?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "disabled": true,
+      "conditions": "#ask_murakami",
+      "dialog_node": "response_2_1751950032402",
+      "previous_sibling": "response_8_1751949994894"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "1984"
+              },
+              {
+                "text": "Animal Farm"
+              },
+              {
+                "text": "Homage to Catalonia"
+              },
+              {
+                "text": "Down and Out in Paris and London"
+              },
+              {
+                "text": "The Road to Wigan Pier"
+              },
+              {
+                "text": "Sense and Sensibility"
+              },
+              {
+                "text": "Pride and Prejudice"
+              },
+              {
+                "text": "Persuasion\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1751969609590",
+      "conditions": "@genre:classic",
+      "dialog_node": "response_2_1752037049167",
+      "previous_sibling": "response_3_1752036990239"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "When Toru Okada’s cat disappears, followed by his wife Kumiko, his mundane life unravels. His search leads him through Tokyo’s dark underbelly and his own subconscious. Mixing historical trauma with personal crisis, this novel is one of Murakami's most expansive, blending detective fiction, surrealism, and war memory."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1752081714213",
+      "conditions": "@Haruki_murakami:(The Wind-Up Bird Chronicle)",
+      "dialog_node": "response_2_1752082064630",
+      "previous_sibling": "response_5_1752082048757"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Harry is unexpectedly entered into the dangerous Triwizard Tournament. He faces dragons, mermaids, and a maze, only to witness Voldemort’s return during the final task."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1751979043907",
+      "conditions": "@jk_rowling:(Harry Potter and the Goblet of Fire)",
+      "dialog_node": "response_3_1751979207313",
+      "previous_sibling": "response_5_1751979159573"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Harry Potter and the Sorcerer's Stone"
+              },
+              {
+                "text": "Harry Potter and the Chamber of Secrets"
+              },
+              {
+                "text": "Harry Potter and the Prisoner of Azkaban"
+              },
+              {
+                "text": "Harry Potter and the Goblet of Fire"
+              },
+              {
+                "text": "Harry Potter and the Order of the Phoenix"
+              },
+              {
+                "text": "American Gods"
+              },
+              {
+                "text": "Coraline"
+              },
+              {
+                "text": "The Graveyard Book"
+              },
+              {
+                "text": "Neverwhere"
+              },
+              {
+                "text": "Good Omens"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1751969609590",
+      "conditions": "@genre:fantasy",
+      "dialog_node": "response_3_1752036774669"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It Ends with Us"
+              },
+              {
+                "text": "November 9"
+              },
+              {
+                "text": "Ugly Love"
+              },
+              {
+                "text": "Reminders of Him"
+              },
+              {
+                "text": "Sense and Sensibility"
+              },
+              {
+                "text": "Pride and Prejudice"
+              },
+              {
+                "text": "Emma"
+              },
+              {
+                "text": "Persuasion"
+              },
+              {
+                "text": "Northanger Abbey"
+              },
+              {
+                "text": "Norwegian Wood"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1751969609590",
+      "conditions": "@genre:romance",
+      "dialog_node": "response_3_1752036905112",
+      "previous_sibling": "response_3_1752036774669"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The Shining"
+              },
+              {
+                "text": "It"
+              },
+              {
+                "text": "Carrie"
+              },
+              {
+                "text": "Misery"
+              },
+              {
+                "text": "The Stand"
+              },
+              {
+                "text": "Coraline"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1751969609590",
+      "conditions": "@genre:horror",
+      "dialog_node": "response_3_1752036990239",
+      "previous_sibling": "response_3_1752036905112"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "While vacationing in Egypt, Poirot investigates the murder of a wealthy heiress aboard a Nile cruise. Jealousy, betrayal, and a clever cover-up unfold in one of Christie’s most exotic mysteries."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1751978385628",
+      "conditions": "@agatha_christie:(Death on the Nile)",
+      "dialog_node": "response_3_1752078249492",
+      "previous_sibling": "response_7_1752078232567"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nobody \"Bod\" Owens is raised by ghosts in a graveyard after his family is murdered. As he grows, Bod learns life lessons from supernatural caretakers and faces dangers from both the living and the dead. A haunting, heartwarming coming-of-age tale inspired by The Jungle Book, set in a cemetery."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1752083418052",
+      "conditions": "@Neil_gaiman:(The Graveyard Book)",
+      "dialog_node": "response_3_1752083537893",
+      "previous_sibling": "response_8_1752083483193"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "When Richard Mayhew helps a wounded girl on a London street, he becomes invisible to the world above and is pulled into “London Below” — a strange underground realm of forgotten people, monsters, and magic. A dark urban fantasy about finding one’s purpose and identity in the unlikeliest places."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1752083418052",
+      "conditions": "@Neil_gaiman:Neverwhere",
+      "dialog_node": "response_3_1752083584529",
+      "previous_sibling": "response_9_1752083562363"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Jane Austen serves wit, romance, and social commentary with grace. Ready for some Regency-era drama?"
+              },
+              {
+                "text": "If you love clever heroines and charming conversations, Austen’s your match. Shall we start with Pride and Prejudice?"
+              },
+              {
+                "text": "Looking for a timeless love story with a sharp tongue? Jane Austen always delivers."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "disabled": true,
+      "conditions": "#ask_austen",
+      "dialog_node": "response_4_1751949946326",
+      "previous_sibling": "response_10_1751949910633"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_3_1751979337323",
+      "disabled": true,
+      "dialog_node": "response_4_1751979383566"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Murder on the Orient Express"
+              },
+              {
+                "text": "And Then There Were None"
+              },
+              {
+                "text": "The Murder of Roger Ackroyd"
+              },
+              {
+                "text": "Death on the Nile"
+              },
+              {
+                "text": "The ABC Murders"
+              },
+              {
+                "text": "The Da Vinci Code"
+              },
+              {
+                "text": "Angels & Demons"
+              },
+              {
+                "text": "Inferno"
+              },
+              {
+                "text": "The Lost Symbol"
+              },
+              {
+                "text": "Origin"
+              },
+              {
+                "text": "Verity"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1751969609590",
+      "conditions": "@genre:mystery",
+      "dialog_node": "response_4_1752037195194",
+      "previous_sibling": "response_8_1752037118553"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As Voldemort gains power, Harry forms “Dumbledore’s Army” to fight back. He suffers loss and frustration as the Ministry denies the truth and Sirius Black dies in the battle at the Department of Mysteries."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1751979043907",
+      "conditions": "@jk_rowling:(Harry Potter and the Order of the Phoenix)",
+      "dialog_node": "response_5_1751979159573",
+      "previous_sibling": "response_7_1751979139580"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poirot receives taunting letters from a killer who murders victims in alphabetical order. With each crime scene linked by the ABC Railway Guide, Poirot must decipher the pattern to catch the criminal."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1751978385628",
+      "conditions": "@agatha_christie:(The ABC Murders)",
+      "dialog_node": "response_5_1752078199066",
+      "previous_sibling": "response_8_1752077382000"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This surreal novel follows two intertwined stories: Kafka Tamura, a 15-year-old runaway fleeing from a dark prophecy, and Nakata, an elderly man who can speak to cats. Blending metaphysics, magic realism, and psychological themes, the novel explores identity, fate, and the subconscious."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1752081714213",
+      "conditions": "@Haruki_murakami:(Kafka on the Shore)",
+      "dialog_node": "response_5_1752082048757",
+      "previous_sibling": "response_1_1752081872112"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eight years after rejecting a marriage proposal from the earnest but poor Captain Wentworth, Anne Elliot is still unmarried and quietly regretful. When he re-enters her life — now successful and distant — Anne must navigate past choices, family influence, and her enduring feelings. A mature and emotional tale of second chances."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1752082597277",
+      "conditions": "@Jane_austen:Persuasion",
+      "dialog_node": "response_5_1752082901060",
+      "previous_sibling": "response_9_1752082827674"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Harry discovers he is a wizard and attends Hogwarts. He learns of the Sorcerer’s Stone and confronts Professor Quirrell (possessed by Voldemort) who is trying to steal it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1751979043907",
+      "conditions": "@jk_rowling:(Harry Potter and the Sorcerer's Stone)",
+      "dialog_node": "response_6_1751979106403"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A deadly virus wipes out most of humanity, and the survivors form two camps: one led by the kind-hearted Mother Abagail, the other by the evil Randall Flagg. As good and evil prepare for a final confrontation, the story explores morality, leadership, and survival. An epic post-apocalyptic saga of hope and horror."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1752083709357",
+      "conditions": "@stephen_king:(The Stand)",
+      "dialog_node": "response_6_1752084200156",
+      "previous_sibling": "response_10_1752084179024"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sirius Black escapes Azkaban. While everyone believes he’s after Harry, the truth reveals a betrayal by Peter Pettigrew—and Sirius is actually Harry’s godfather"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1751979043907",
+      "conditions": "@jk_rowling:(Harry Potter and the Prisoner of Azkaban)",
+      "dialog_node": "response_7_1751979139580",
+      "previous_sibling": "response_10_1751979122626"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A group of farm animals rebel against their human farmer, hoping to create an equal society. Over time, the pigs take control, and the farm becomes a dictatorship under Napoleon the pig. The famous line “All animals are equal, but some animals are more equal than others” shows how power corrupts. It's an allegory of the Russian Revolution and Stalin’s rise."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1751979434003",
+      "conditions": "@george_orwell:(Animal Farm)",
+      "dialog_node": "response_7_1751979533623",
+      "previous_sibling": "response_10_1751979479375"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Harry Potter and the Sorcerer's Stone — J.K. Rowling"
+              },
+              {
+                "text": "Harry Potter and the Chamber of Secrets — J.K. Rowling"
+              },
+              {
+                "text": "Harry Potter and the Prisoner of Azkaban — J.K. Rowling"
+              },
+              {
+                "text": "Harry Potter and the Goblet of Fire — J.K. Rowling"
+              },
+              {
+                "text": "Harry Potter and the Order of the Phoenix — J.K. Rowling"
+              },
+              {
+                "text": "Norwegian Wood — Haruki Murakami (older YA / coming-of-age)"
+              },
+              {
+                "text": "Coraline — Neil Gaiman"
+              },
+              {
+                "text": "The Graveyard Book — Neil Gaiman"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1751969609590",
+      "conditions": "@genre:(young adult)",
+      "dialog_node": "response_7_1752038417342",
+      "previous_sibling": "response_10_1752038274727"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poirot retires to a village, only to be pulled into the suspicious murder of Roger Ackroyd. The shocking twist: the narrator of the story is the killer, challenging readers’ trust in storytelling itself."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1751978385628",
+      "conditions": "@agatha_christie:(The Murder of Roger Ackroyd)",
+      "dialog_node": "response_7_1752078232567",
+      "previous_sibling": "response_10_1752078217797"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The apocalypse is near, but the angel Aziraphale and demon Crowley — who've grown fond of Earth — team up to stop it. Meanwhile, the Antichrist is misplaced. A comedic and philosophical satire about fate, free will, and humanity, blending humor with a surprisingly heartfelt message."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1752083418052",
+      "conditions": "@Neil_gaiman:(Good Omens)",
+      "dialog_node": "response_7_1752083608616",
+      "previous_sibling": "response_3_1752083584529"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ah, the wizarding world! Are you starting the Harry Potter series, or would you like to explore her detective fiction under Robert Galbraith?"
+              },
+              {
+                "text": "“J.K. Rowling’s magic isn’t just for Hogwarts. Want to dive into mystery with The Cuckoo’s Calling?"
+              },
+              {
+                "text": "Whether you’re 9 or 99, Harry Potter is always a good idea. Shall I bring the magic?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "disabled": true,
+      "conditions": "#ask_rowling",
+      "dialog_node": "response_8_1751949994894",
+      "previous_sibling": "response_4_1751949946326"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "“Paulo Coelho writes books that feed the soul. The Alchemist is a beautiful place to start — shall I fetch it?"
+              },
+              {
+                "text": "Looking for something poetic and meaningful? Coelho’s stories are full of wisdom and wanderlust."
+              },
+              {
+                "text": "Whether you're seeking purpose or peace, Coelho’s got your back. Want something spiritual or philosophical?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "disabled": true,
+      "conditions": "@paulo_coelho",
+      "dialog_node": "response_8_1751950098695",
+      "previous_sibling": "response_2_1751950032402"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Norwegian Wood"
+              },
+              {
+                "text": "Kafka on the Shore"
+              },
+              {
+                "text": "1Q84"
+              },
+              {
+                "text": "Colorless Tsukuru Tazaki and His Years of Pilgrimage"
+              },
+              {
+                "text": "The Wind-Up Bird Chronicle"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1751969609590",
+      "conditions": "@genre:literary_fiction",
+      "dialog_node": "response_8_1752037118553",
+      "previous_sibling": "response_2_1752037049167"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hercule Poirot investigates the murder of a wealthy passenger aboard the Orient Express. As he interviews each traveler, he discovers they all had a motive—and were all involved in a collective act of justice for a past crime."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1751978385628",
+      "conditions": "@agatha_christie:(Murder on the Orient Express)",
+      "dialog_node": "response_8_1752077382000"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "sukuru, once abandoned by his close group of high school friends without explanation, revisits his past to uncover the truth and heal. A quiet, introspective novel about friendship, alienation, and the longing for connection, it reflects on how unresolved emotional pain shapes adult identity."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1752081714213",
+      "conditions": "@Haruki_murakami:(Colorless Tsukuru Tazaki and His Years of Pilgrimage)",
+      "dialog_node": "response_8_1752082323808",
+      "previous_sibling": "response_2_1752082064630"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Catherine Morland, a naïve and imaginative young woman, visits Bath and later the mysterious Northanger Abbey. Obsessed with gothic novels, she begins to confuse fiction with reality. The story humorously critiques romantic fantasies and traces Catherine’s journey toward self-growth and romantic maturity."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1752082597277",
+      "conditions": "@Jane_austen:(Northanger Abbey)",
+      "dialog_node": "response_8_1752083046369",
+      "previous_sibling": "response_5_1752082901060"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "When Shadow Moon is released from prison, he is recruited by the mysterious Mr. Wednesday for a journey across America. Shadow soon learns he's caught in a war between the old gods (mythical deities) and the new (technology, media). A mythic, surreal exploration of belief, identity, and power in modern life."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1752083418052",
+      "conditions": "@Neil_gaiman:(American Gods)",
+      "dialog_node": "response_8_1752083483193"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "Anything else",
+      "disabled": true,
+      "dialog_node": "response_9_1751950142715",
+      "previous_sibling": "response_8_1751950098695"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Orwell describes his experiences living in poverty—first as a dishwasher in Paris, then homeless in London. It's a semi-autobiographical exploration of survival, class, and dignity among society’s most marginalized."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1751979434003",
+      "conditions": "@george_orwell:(Down and Out in Paris and London)",
+      "dialog_node": "response_9_1751979619296",
+      "previous_sibling": "response_1_1751979633622"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Emma Woodhouse is charming, rich, and determined to play matchmaker in her social circle — despite lacking insight into her own heart. As her meddling leads to misunderstandings, she slowly learns humility, self-awareness, and eventually discovers true love where she least expected it."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1752082597277",
+      "conditions": "@Jane_austen:Emma",
+      "dialog_node": "response_9_1752082827674",
+      "previous_sibling": "response_1_1752082794086"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Young Coraline discovers a hidden door in her family's new home that leads to a mirrored world — similar to her own, but darkly twisted. Her \"Other Mother\" offers her everything she wants... at a sinister cost. A modern dark fairy tale about bravery, choice, and being careful what you wish for."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1752083418052",
+      "conditions": "@Neil_gaiman:Coraline",
+      "dialog_node": "response_9_1752083562363",
+      "previous_sibling": "response_3_1752083537893"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Carrie White, a shy, bullied teenager with a religiously fanatical mother, discovers she has telekinetic powers. After a cruel prank at prom pushes her over the edge, she unleashes devastating vengeance on her town. A tragic and powerful debut novel about bullying, repression, and the consequences of cruelty."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1752083709357",
+      "conditions": "@stephen_king:Carrie",
+      "dialog_node": "response_9_1752084087009",
+      "previous_sibling": "response_1_1752083822594"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Famous author Paul Sheldon is rescued from a car crash by Annie Wilkes, his “number one fan.” But Annie turns out to be dangerously unstable — and she’s furious that Paul killed off her favorite character. Trapped in her remote home, Paul is forced to write a new novel under threat of torture. A psychological horror about obsession and creative imprisonment."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1752083709357",
+      "conditions": "@stephen_king:Misery",
+      "dialog_node": "response_9_1752084141640",
+      "previous_sibling": "response_9_1752084087009"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              },
+              {
+                "text": "Hi there, I’m Shelfie — your AI reading buddy! Ready to discover a new story today?"
+              },
+              {
+                "text": "Welcome to Shelfie! I’ve got a world of books waiting. What are you in the mood to read?"
+              },
+              {
+                "text": "Hey reader! I sniff out stories like a bloodhound on a bookshelf. Let's get started!"
+              },
+              {
+                "text": "Tell me how you feel today, and I’ll find the perfect book to match"
+              },
+              {
+                "text": "Hello! Want a quick rec or something to match your mood?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#greetings",
+      "dialog_node": "Welcome",
+      "previous_sibling": "node_9_1751950625538"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "language": "en",
+  "description": "ShelfieCore powers Shelfie’s smart book chats—handling genres, moods, authors, and tailored reading recommendations.",
+  "name": "Shelfie-dialog"
+}
