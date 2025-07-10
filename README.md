@@ -1,4 +1,5 @@
-📖 Book Recommendation Assistant using IBM Watson
+📖 Book Recommendation Assistant using IBM Watson :
+
 This project is a smart conversational assistant built with IBM Watson Assistant, designed to help users discover books by their favorite authors, explore new genres, and read summaries before diving into a new read. It integrates natural conversation flow with structured data, enabling personalized recommendations.
 ________________________________________
 ✨ Features
@@ -56,4 +57,4 @@ ________________________________________
 ________________________________________
 👤 Author
 Sakshi singh
-________________________________________
+
