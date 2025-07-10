@@ -1,6 +1,9 @@
 📖 Book Recommendation Assistant using IBM Watson :
 
 This project is a smart conversational assistant built with IBM Watson Assistant, designed to help users discover books by their favorite authors, explore new genres, and read summaries before diving into a new read. It integrates natural conversation flow with structured data, enabling personalized recommendations.
+
+
+LIVE DEMO : https://slashthose.github.io/PBEL-project/
 ________________________________________
 ✨ Features -
 
@@ -68,9 +71,8 @@ ________________________________________
 
 User: can you recommend something by agatha.
 
-Shelfie: 
+Shelfie: Classic whodunits and twist endings await! Do you want something iconic like Murder on the Orient Express or a lesser-known gem?
 
-Classic whodunits and twist endings await! Do you want something iconic like Murder on the Orient Express or a lesser-known gem?
  The Murder of Roger Ackroyd
 
  <img width="250" height="350" alt="Screenshot 2025-07-10 104031" src="https://github.com/user-attachments/assets/e4b097f7-3587-4d2e-b724-0c71264403c6" />
