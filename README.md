@@ -2,7 +2,9 @@
 
 This project is a smart conversational assistant built with IBM Watson Assistant, designed to help users discover books by their favorite authors, explore new genres, and read summaries before diving into a new read. It integrates natural conversation flow with structured data, enabling personalized recommendations.
 ________________________________________
-✨ Features
+✨ Features -
+
+
 •	📖 Get book recommendations by author or genre
 •	📅 Book summaries provided directly in the chat
 •	✨ Entity-based conversation using @book, @author, @genre
@@ -10,7 +12,9 @@ ________________________________________
 •	⚖️ CSV-based entity import for easy scaling
 •	🤝 Seamless backend integration (optional) for dynamic responses
 ________________________________________
-📚 Authors Included
+📚 Authors Included :
+
+
 •	Agatha Christie
 •	J.K. Rowling
 •	George Orwell
@@ -38,18 +42,24 @@ watson-book-assistant/
 ├── requirements.txt
 └── README.md
 ________________________________________
-🚪 Example Conversation
+🚪 Example Conversation :
+
+
 User: can you recommend something by agatha.
 Shelfie: 
 Classic whodunits and twist endings await! Do you want something iconic like Murder on the Orient Express or a lesser-known gem?
  The Murder of Roger Ackroyd
 ________________________________________
 🌐 Deployment Options
+
+
 •	IBM Cloud Watson Assistant only (no backend)
 •	Flask API + Watson (for dynamic data)
 •	Render or Heroku (for backend hosting)
 ________________________________________
 🚀 Future Enhancements
+
+
 •	User profile memory (Watson context variables)
 •	Feedback-based recommendations
 •	Genre-based filtering and exploration
