@@ -30,6 +30,15 @@ ________________________________________
 •	Dan Brown
 •	Colleen Hoover
 Each author has 4-5 books with summarized descriptions.
+
+WEBSITE FOR THE ASSISTAN :
+<img width="1888" height="886" alt="Screenshot 2025-07-10 213528" src="https://github.com/user-attachments/assets/3b447445-7fc8-46f2-8ac3-8e2646b2683e" />
+
+
+ASSISTANT - SHELFIE: 
+<img width="1870" height="870" alt="Screenshot 2025-07-10 213537" src="https://github.com/user-attachments/assets/dcfc0a9e-8fba-4393-9868-42ab1e430aee" />
+
+
 ________________________________________
 📄 File Structure
 watson-book-assistant/
@@ -59,7 +68,15 @@ User: can you recommend something by agatha.
 Shelfie: 
 Classic whodunits and twist endings await! Do you want something iconic like Murder on the Orient Express or a lesser-known gem?
  The Murder of Roger Ackroyd
+
+ <img width="537" height="795" alt="Screenshot 2025-07-10 104031" src="https://github.com/user-attachments/assets/e4b097f7-3587-4d2e-b724-0c71264403c6" />
+
+ 
+<img width="509" height="785" alt="Screenshot 2025-07-10 104052" src="https://github.com/user-attachments/assets/13f8d903-ff7f-4565-9ea0-699422af73ef" />
+
 ________________________________________
+
+
 🌐 Deployment Options
 
 
