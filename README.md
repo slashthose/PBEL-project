@@ -28,16 +28,21 @@ Each author has 4-5 books with summarized descriptions.
 ________________________________________
 📄 File Structure
 watson-book-assistant/
+
 ├── watson_assistant/
+
 │   ├── workspace_export.json
 │   └── entities/
+
 │       ├── books.csv
 │       ├── authors.csv
 │       └── genres.csv
 ├── backend/
+
 │   ├── app.py
 │   ├── summaries.json
 ├── data/
+
 │   └── author_book_list.csv
 ├── requirements.txt
 └── README.md
