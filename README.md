@@ -6,10 +6,15 @@ ________________________________________
 
 
 •	📖 Get book recommendations by author or genre
+
 •	📅 Book summaries provided directly in the chat
+
 •	✨ Entity-based conversation using @book, @author, @genre
+
 •	🤖 Pre-trained intents like #greeting, #thank_you, #recommend_book, etc.
+
 •	⚖️ CSV-based entity import for easy scaling
+
 •	🤝 Seamless backend integration (optional) for dynamic responses
 ________________________________________
 📚 Authors Included :
