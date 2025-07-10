@@ -77,6 +77,18 @@
 
   <footer>
     &copy; 2025 BookBot by Sakshi Singh | Powered by IBM Watson Assistant
-  </footer>
+  </footer><script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "7c21665e-42c5-40da-92d6-a572ca1b0cc0", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "3f6ee0cb-c7bb-474d-9a58-5b9c088d420b", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
 </body>
 </html>
