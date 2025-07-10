@@ -1,0 +1,115 @@
+Recommend something like Pride and Prejudice,ask_austen
+List of Jane Austen books,ask_austen
+Classic literature by Jane Austen,ask_austen
+What novels did Austen write?,ask_austen
+Jane Austen books please,ask_austen
+Dan Brown books,ask_brown
+okay can you get something by agatha,ask_brown
+Books by Dan Brown please,ask_brown
+Any Langdon series books?,ask_brown
+I like Dan Brown’s writing,ask_brown
+Mystery thrillers like Da Vinci Code,ask_brown
+can you recommend something by agatha,ask_christie
+okay can you get something by agatha,ask_christie
+Do you have books by Agatha Christie,ask_christie
+"yes, something by agatha",ask_christie
+Recommend me a Christie novel,ask_christie
+I want mystery books by Agatha Christie,ask_christie
+Agatha Christie book list,ask_christie
+Tell me about Agatha Christie,ask_christie
+Show me Gaiman's books,ask_gaiman
+Neil Gaiman book recommendations,ask_gaiman
+I want something by Gaiman,ask_gaiman
+What did Neil Gaiman write?,ask_gaiman
+Fantasy novels by Neil Gaiman,ask_gaiman
+Romantic novels by Colleen Hoover,ask_hoover
+Colleen Hoover book suggestions,ask_hoover
+Tell me about Colleen Hoover’s work,ask_hoover
+Any books like It Ends With Us?,ask_hoover
+Hoover’s best books,ask_hoover
+Suggest me a King novel,ask_king
+Stephen King horror books,ask_king
+List of books by Stephen King,ask_king
+King’s best novels?,ask_king
+Do you have Stephen King books?,ask_king
+I love Haruki Murakami,ask_murakami
+Japanese fiction by Murakami,ask_murakami
+Show me Murakami books,ask_murakami
+Do you have Kafka on the Shore?,ask_murakami
+Recommend a Murakami novel,ask_murakami
+Recommend something like 1984,ask_orwell
+What did Orwell write?,ask_orwell
+I’m interested in Orwell’s work,ask_orwell
+Orwell book suggestions,ask_orwell
+Books by George Orwell,ask_orwell
+Rowling novels please,ask_rowling
+Suggest a book by J.K. Rowling,ask_rowling
+I love J.K. Rowling's books,ask_rowling
+What did Rowling write?,ask_rowling
+some other books by jk,ask_rowling
+Any Harry Potter books?,ask_rowling
+can you give me summary of this specific book,book_summary
+tell me an thing that will interest me in this book,book_summary
+what is this book about,book_summary
+can you summarise this for me,book_summary
+what's the plot,book_summary
+can you quickly give me the gist of the book,book_summary
+"yes,please",Classics
+i am waiting,Classics
+okay,Classics
+yes,Classics
+ok,Classics
+"yes, go ahead",Classics
+Bye,goodbye
+Talk later,goodbye
+"Thanks, I'm don",goodbye
+Thanks,goodbye
+See you,goodbye
+Hi,greetings
+Namaste,greetings
+Hi shelfie,greetings
+Hello,greetings
+Hey,greetings
+how do i use shelfie,help
+what can shelfie do for me,help
+show me the oprions,help
+tell me how to get a book,help
+i am new here what do you so?,help
+can i ask for book by a author,help
+can you explain how this works,help
+not sure where to start,help
+What can you do?,help
+i need help,help
+how does this work,help
+help me out here,help
+can you guide me,help
+can you suggest me a book,recommend_book
+can you recommend me a book,recommend_book
+Help me pick a book,recommend_book
+Suggest a novel,recommend_book
+what book should I be reading next,recommend_book
+what genre should I explore more,recommend_book
+what kind of book should I read,recommend_book
+what should be the next pick of my tbr,recommend_book
+What should I read next?,recommend_book
+Recommend me something,recommend_book
+show me some books,recommend_book
+can you recommend something by agatha,recommend_book
+I prefer drama,select_genre
+Romance is my favorite,select_genre
+I like mystery books,select_genre
+Show me some fantasy novels,select_genre
+I want to read science fiction,select_genre
+"Horror books, please",select_genre
+enjoy thrillers,select_genre
+Give me a comedy book,select_genre
+Recommend a historical fiction,select_genre
+I'm into adventure stories,select_genre
+something of mystery,select_genre
+That helps,thank_you
+"oh, thanks",thank_you
+This was great,thank_you
+This works,thank_you
+thanks a lot,thank_you
+Awesome,thank_you
+Thanks,thank_you
