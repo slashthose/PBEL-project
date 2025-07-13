@@ -87,8 +87,8 @@ ________________________________________
 
 
 •	IBM Cloud Watson Assistant only (no backend)
-•	Flask API + Watson (for dynamic data)
-•	Render or Heroku (for backend hosting)
+•	 Watson (for dynamic data)
+Used - Github and IBM Cloud
 ________________________________________
 🚀 Future Enhancements
 
