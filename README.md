@@ -93,22 +93,22 @@ ________________________________________
 🚀 Future Enhancements
 
 
-•	User profile memory (Watson context variables)
-•	Feedback-based recommendations
-•	Genre-based filtering and exploration
-•	Book rating and popularity scores
+* User profile memory (Watson context variables)
+* Feedback-based recommendations
+*	Genre-based filtering and exploration
+* Book rating and popularity scores
 * Voice Interaction Support
 * User Login & Personal Dashboard
 * Multilingual Recommendations
 * Rating & Review System
-* AI-Based Learning
+*  AI-Based Learning
   -Improve suggestions using user behavior and feedback over time.
 * Book Preview Feature
   -Show first few pages or sample chapters before suggesting a book
 
-<img width="1255" height="575" alt="image" src="https://github.com/user-attachments/assets/33e74366-1ed6-46cd-b6f0-7b572e87d6fa" />
+
 
 ________________________________________
-👤 Author
+👤 cREATED BY :
 Sakshi singh
 
